@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal CV - Bootstrap</title>
+
+    <!-- Cascade Style Sheets Includes -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav class="navbar py-3 navbar-expand-md bg-dark navbar-dark">
+
+        <a href="#" class="navbar-brand brand ms-5">Fernando Mocrosky</a>
+
+        <button class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container-fluid">
+            <ul class="navbar-nav navbar-collapse collapse nav-justified" id="menu">
+
+                <li class="nav-item py-md-0 py-2">
+                    <a href="#" class="nav-link">home</a>
+                </li>
+
+                <li class="nav-item py-md-0 py-2 dropdown">
+                    <a href="#" role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">contact</a>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end text-center">
+                        <li>
+                            <a href="#" class="dropdown-item py-md-3 py-2">Gmail</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item py-md-3 py-2">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item py-md-3 py-2">Github</a>
+                        </li>
+                    </ul>
+                </li>
+        
+                <li class="nav-item py-md-0 py-2">
+                    <a href="#" class="nav-link">about</a>
+                </li>
+            </ul> 
+            
+        </div>
+    </nav>
+    <!-- Scripts includes -->
+    <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
