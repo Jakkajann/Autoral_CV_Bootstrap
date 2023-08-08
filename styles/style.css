@@ -1,5 +1,8 @@
 :root {
     --purple: rgb(228, 148, 221); 
+    --white: #fff;
+    --alpha-gray: rgb(255, 255, 255, .5);
+    --dropdown-active: rgb(43, 43, 43);
 }
 
 .brand {
@@ -13,18 +16,18 @@
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 .brand 
 {
-    color: rgb(255, 255, 255, .5);
+    color: var(--alpha-gray);
 }
 
 .brand:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 .dropdown-item:active {
-    background-color: rgb(43, 43, 43);
+    background-color: var(--dropdown-active);
 }
