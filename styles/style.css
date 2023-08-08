@@ -28,6 +28,27 @@
     color: var(--white);
 }
 
+.c-controller {
+    transform: scale(3, 3);
+}
+
+.carousel-item {
+    transform: scale(.75, .75);
+}
+
+
+#roles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
 .dropdown-item:active {
     background-color: var(--dropdown-active);
+}
+
+.comp-img {
+    height: 250px;
+    width: 300px;
 }

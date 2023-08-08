@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <nav class="navbar py-3 navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar py-3 navbar-expand-md bg-dark navbar-dark fixed-top">
 
         <a href="#" class="navbar-brand brand ms-5">Fernando Mocrosky</a>
 
@@ -25,27 +25,133 @@
                 </li>
 
                 <li class="nav-item py-md-0 py-2 dropdown">
-                    <a href="#" role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">contact</a>
-                    <ul class="dropdown-menu dropdown-menu-md-end dropdown-menu-dark text-center">
+                    <a href="#" role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Social</a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark text-center">
                         <li>
-                            <a href="#" class="dropdown-item py-md-3 py-2">Gmail</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fernandobismaia@gmail.com" class="dropdown-item py-md-3 py-2" target="_blank">Gmail</a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-item py-md-3 py-2">Linkedin</a>
+                            <a href="https://www.linkedin.com/in/fernando-b-mocrosky-6385b5205/" class="dropdown-item py-md-3 py-2" target="_blank">Linkedin</a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-item py-md-3 py-2">Github</a>
+                            <a href="https://www.instagram.com/fernandomocrosky/" class="dropdown-item py-md-3 py-2" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Jakkajann" class="dropdown-item py-md-3 py-2" target="_blank">Github</a>
                         </li>
                     </ul>
                 </li>
         
                 <li class="nav-item py-md-0 py-2">
-                    <a href="#" class="nav-link">about</a>
+                    <a href="#competences" class="nav-link">about</a>
                 </li>
             </ul> 
             
         </div>
     </nav>
+
+    <header class="bg-info-subtle carousel slide" id="roles" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner">
+            <section class="text-center">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <h1 class="display-1 text-secondary text-uppercase">full-stack web developer</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <h1 class="display-1 text-secondary text-uppercase">back-end heavy</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <h1 class="display-1 text-secondary text-uppercase">always improving</h1>
+                </div>
+            </section>
+        </div>
+        <button class="carousel-control-next" data-bs-target="#roles" data-bs-slide="next">
+            <span class="carousel-control-next-icon c-controller"></span>
+        </button>
+        <button class="carousel-control-prev" data-bs-target="#roles" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon c-controller"></span>
+        </button>
+    </header>
+
+    <section>
+        <div id="competences" class="row container mx-5 align-items-center p-5 mt-5" style="height: 100%; margin-bottom: 5rem;">
+            <div class="col-md-6 col-12 d-flex justify-content-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png" class="rounded-5 img-fluid comp-img">
+            </div>
+            <div class="col-md-6 col-12 justify-content-center justify-content-md-start text-center">
+                <h1 class="display-3 m-0 mb-md-5 mt-5 mt-md-0">Javascript</h1>
+                <p>
+                    &emsp; I know the most recent features of Javascript programming language, 
+                    features from ES6 like spread operator, destructuring arrays and objects,
+                    map, filter and reduce functions, etc.
+                </p>
+            </div>
+        </div>
+
+        <div class="row container mx-5 align-items-center p-5 mt-5" style="height: 100%; margin-bottom: 5rem;">
+            <div class="col-md-6 col-12 order-md-0 order-1 justify-content-center justify-content-md-start text-center">
+                <h1 class="display-3 m-0 mb-md-5 mt-5 mt-md-0">React</h1>
+                <p>
+                    &emsp; React is an awesome front-end framework, the use of state-hooks,
+                    creating components in the component tree, passing parameters with the props argument,
+                    makes so easy to scale and reuse components.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-12 order-md-1 order-0 d-flex justify-content-center">
+                <img src="https://www.bairesdev.com/wp-content/uploads/2022/06/Picture6-1.svg" style="width: auto;" class="rounded-5 img-fluid comp-img">
+            </div>
+        </div>
+
+        <div class="row container mx-5 align-items-center p-5 mt-5" style="height: 100%; margin-bottom: 5rem;">
+            <div class="col-md-6 col-12 d-flex justify-content-center">
+                <img src="https://www.opus-software.com.br/wp-content/uploads/2018/09/nodejs.jpg" class="rounded-5 img-fluid comp-img" style="width: auto;">
+            </div>
+            <div class="col-md-6 col-12 justify-content-center justify-content-md-start text-center">
+                <h1 class="display-3 m-0 mb-md-5 mt-5 mt-md-0">NodeJs</h1>
+                <p>
+                    &emsp; javascript and NodeJs walk together in the web development carreer, with node packet manager
+                    you can find everything that you need (almost everything) just searching for a framework to do it for you,
+                    it automatically arrange de packages so you don't have to worry about it, just import into your code and use it.
+                </p>
+            </div>
+        </div>
+
+        <div class="row container mx-5 align-items-center p-5 mt-5" style="height: 100%; margin-bottom: 5rem;">
+            <div class="col-md-6 col-12 order-md-0 order-1 justify-content-center justify-content-md-start text-center">
+                <h1 class="display-3 m-0 mb-md-5 mt-5 mt-md-0">MongoDB</h1>
+                <p>
+                    &emsp; A Not Sequel Query Language database, MongoDB offers you an easy way to store data and retrieve it,
+                    when you use this database you'll feel like you are using an API.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-12 order-md-1 order-0 d-flex justify-content-center">
+                <img src="https://www.ambientelivre.com.br/media/k2/items/cache/e9432fccf28a953514f077b86e5e657a_M.jpg" class="rounded-5 img-fluid comp-img" style="width: auto;">
+            </div>
+        </div>
+
+        <div class="row container mx-5 align-items-center p-5 mt-5" style="height: 100%; margin-bottom: 5rem;">
+            <div class="col-md-6 col-12 d-flex justify-content-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" class="rounded-5 img-fluid comp-img">
+            </div>
+            <div class="col-md-6 col-12 justify-content-center justify-content-md-start text-center">
+                <h1 class="display-3 m-0 mb-md-5 mt-5 mt-md-0">SQL Databases</h1>
+                <p>
+                    &emsp; The ones that I am most familiar with is the MySQL, PostgreSQL and MariaDB,
+                    I'm a computer science student in the college and we study a lot about relational databases,
+                    I'm capable of create, making the relational diagram and implement it with SQL databases.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark text-white-50 d-flex justify-content-center align-items-center" style="height: 100px;">
+        <h5>
+           Copyright &copy; <span id="copyYear"></span> By Fernando Bismaia Mocrosky
+        </h5>
+    </footer>
+
     <!-- Scripts includes -->
     <script src="./scripts/bootstrap.bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
